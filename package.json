@@ -1,0 +1,67 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "jquery": "^3.6.0",
+    "particles-bg-vue": "^1.3.5",
+    "particles.vue": "^2.20.5",
+    "vue": "^2.6.14",
+    "vue-animejs": "^2.1.1",
+    "vue-awesome": "^4.3.1",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-owl-carousel2": "^2.0.7",
+    "vue-roller": "^1.12.7",
+    "vue-router": "^3.5.2",
+    "vue-sequential-entrance": "^1.1.3",
+    "vue-slick": "^1.1.16",
+    "vue-tasty-burgers": "^1.2.3",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@vue/cli": "^4.5.14",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-service-global": "^4.5.14",
+    "babel-eslint": "^10.1.0",
+    "callback-loader": "^0.2.4",
+    "core-js": "^3.6.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "expose-loader": "^3.1.0",
+    "vue-icons": "^2.0.0",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
